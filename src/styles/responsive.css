@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    padding: 30px 15px !important;
+  }
+  .text_area_home {
+    padding-top: 30px !important;
+  }
+  .text_area_home {
+    width: 90% !important;
+    padding-bottom: 30px !important;
+  }
+  .info_webpage {
+    width: 90% !important;
+    font-size: 60px !important;
+  }
+  .info_page {
+    width: 90% !important;
+  }
+  .menu_list {
+    justify-content: space-evenly;
+    padding: 14px 0px;
+  }
+  .calc {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .fullwidth {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .text_area_home {
+    width: 100% !important;
+    padding-bottom: 30px !important;
+  }
+  .info_webpage {
+    width: 100% !important;
+    font-size: 60px !important;
+  }
+  .info_page {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text_area_home {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+  .info_webpage {
+    font-size: 40px !important;
+  }
+}
