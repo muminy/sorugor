@@ -6,6 +6,7 @@
       </router-link>
       <button
         type="button"
+        class="navbar-toggler"
         data-toggle="collapse"
         data-target="#navbarNav"
         aria-controls="navbarNav"
