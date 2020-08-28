@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1000px) {
   .navbar {
-    padding: 30px 15px !important;
+    padding: 20px 15px !important;
   }
   .text_area_home {
     padding-top: 30px !important;
@@ -30,6 +30,9 @@
     display: block;
     width: 100%;
     text-align: center;
+  }
+  .area_exams {
+    padding-bottom: 0px !important;
   }
 }
 @media only screen and (max-width: 800px) {

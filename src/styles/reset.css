@@ -13,7 +13,7 @@
   }
 }
 *::selection {
-  background-color: #0d6efd;
+  background-color: #000;
   color: #fff;
 }
 a {

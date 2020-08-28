@@ -6,18 +6,16 @@
           Online ortam da kendinizi
           <span>test</span> edin
         </CustomText>
-        <CustomText size="xnormal" class="info_page" tag="p"
-          >Ücretsiz bir şekilde test çözbilir, çözemediğin yada yanlış yaptığın
-          soruların cevaplarına erişebilirsin.</CustomText
-        >
+        <CustomText size="xnormal" class="info_page" tag="p">
+          Ücretsiz bir şekilde test çözbilir, çözemediğin yada yanlış yaptığın
+          soruların cevaplarına erişebilirsin.
+        </CustomText>
       </div>
     </div>
     <div class="area_exams">
       <div class="row">
         <div class="col-lg-4 list_of_list">
-          <CustomText tag="h3" class="test_list"
-            >Temel yeterlilik sınavi</CustomText
-          >
+          <CustomText tag="h3" class="test_list">Temel yeterlilik sınavi</CustomText>
           <div class="list_of_tests tyt flex">
             <CustomText class="counts_user">Canlılar Alemi</CustomText>
             <div class="user_list_of_tet flex aic">
@@ -55,9 +53,7 @@
           </div>
         </div>
         <div class="col-lg-4 list_of_list">
-          <CustomText tag="h3" class="test_list"
-            >Alan yeterlilik sınavı</CustomText
-          >
+          <CustomText tag="h3" class="test_list">Alan yeterlilik sınavı</CustomText>
           <div class="list_of_tests ayt flex">
             <CustomText class="counts_user">Trigonometri</CustomText>
             <div class="user_list_of_tet flex aic">
@@ -73,9 +69,7 @@
             </div>
           </div>
           <div class="list_of_tests ayt flex">
-            <CustomText class="counts_user"
-              >Permütasyon ve Kombinasyon</CustomText
-            >
+            <CustomText class="counts_user">Permütasyon ve Kombinasyon</CustomText>
             <div class="user_list_of_tet flex aic">
               <CustomText class="counts_user">42</CustomText>
               <UsersIcon size="16px" color="#b9571e" />
@@ -144,8 +138,7 @@
             <div class="flex aic jcsb stats_count_bottom">
               <CustomText class="h_stats" tag="h3">Toplam soru</CustomText>
               <CustomText class="flex aic upstats">
-                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon
-                >%18
+                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon>%18
               </CustomText>
             </div>
             <CustomText class="count_stats" tag="h3">1.826</CustomText>
@@ -156,8 +149,7 @@
             <div class="flex aic jcsb stats_count_bottom">
               <CustomText class="h_stats" tag="h3">Toplam Öğrenci</CustomText>
               <CustomText class="flex aic upstats">
-                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon
-                >%18
+                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon>%18
               </CustomText>
             </div>
             <CustomText class="count_stats" tag="h3">1.002</CustomText>
@@ -168,8 +160,7 @@
             <div class="flex aic jcsb stats_count_bottom">
               <CustomText class="h_stats" tag="h3">Toplam Sınav</CustomText>
               <CustomText class="flex aic upstats">
-                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon
-                >%22
+                <UpIcon class="mtcustom" size="24px" color="#49bb6b"></UpIcon>%22
               </CustomText>
             </div>
             <CustomText class="count_stats" tag="h3">6.719</CustomText>
@@ -200,7 +191,7 @@ export default {
 .stats_count_bottom {
   margin-bottom: 6px;
 }
-.list_of_list {
+.list_of_list:not(:last-child) {
   margin-bottom: 28px;
 }
 .mtcustom {

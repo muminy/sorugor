@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light ">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <Container>
       <router-link to="/">
-        <LogoIcon size="26" color="#0d6efd" />
+        <LogoIcon size="26" color="#212121" />
       </router-link>
       <button
         type="button"
-        class="navbar-toggler"
+        class="navbar-toggler rootbtn"
         data-toggle="collapse"
         data-target="#navbarNav"
         aria-controls="navbarNav"
@@ -60,6 +60,10 @@ export default {
 </script>
 
 <style scoped>
+.rootbtn {
+  padding: 0px;
+  border-width: 0px;
+}
 header.header {
   padding: 28px 0px;
   display: flex;
@@ -113,7 +117,7 @@ header.header {
   background-color: #f7f7f7;
 }
 .navbar {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 </style>
