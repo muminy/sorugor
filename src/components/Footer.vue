@@ -28,6 +28,7 @@ export default {
 <style scoped>
 footer {
   padding: 20px 0px;
+  padding-top: 60px;
 }
 .social_list {
   padding: 18px 0px;

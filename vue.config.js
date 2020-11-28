@@ -9,5 +9,7 @@ module.exports = {
 
     // add replacement loader(s)
     svgRule.use('vue-svg-loader').loader('vue-svg-loader')
+
+    config.module.rules.delete('eslint')
   }
 }
